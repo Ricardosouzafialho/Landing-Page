@@ -1,0 +1,171 @@
+*     /* Mexer no layout */
+{
+    margin: 0%;  /* ?? */
+    padding: 0%;  /* ?? */
+    box-sizing: border-box;
+}
+
+body{
+      /* Muda a fonte das letras, em geral */
+    line-height: 1.6;  /* Espaçamento vertical entre cada frase */
+    background-color: #c7eb00; /*Troca a cor do fundo */
+    
+}
+
+nav{
+    position: fixed; /* Mantem a posição  fixada */
+    top: 0; /* ?? */
+    width: 100%; /* Largura */
+    background-color: #d1a209e3;
+    padding: 20px 0; /* Altera para a esquerda  */
+    
+}
+
+nav ul{
+    list-style-type: none; 
+    display: flex; /* organiza o conteudo de forma flexivel */
+    justify-content: center; /* so funciona com display flex, alinhamento horizontal */
+}
+
+nav ul li{
+    margin: 0 20px; /* Espaçamento horizontal */
+}
+
+
+nav ul li a{
+color: white; /* Aletra a cor  */
+text-decoration: none; /*  sublinha as palavras  */
+font-size: 18px; /* Altera o tamanho das letras */
+padding: 10px;
+transition: color 0s; /* Altera a transição das cores */
+}
+
+nav ul li a:hover{
+    color: #ff6347;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+section:not(home){
+    padding: 100px 20px; /* ?? */
+    text-align: center; /* Alinhamento de texto */
+    display: flex ; 
+    justify-content: center; /* alinhamento horizontal */
+    align-items: center; /* alinhamento vertical */
+    height: 100vh; /* configura a altura de cada sessâo */
+}
+
+    #home {
+        /* background-color: #4A90E2 */
+        background-image: url(https://i.pinimg.com/736x/38/0b/79/380b7931e58b2723cbc633cc0d603965.jpg); /* Adiciona uma imagem no fundo da página */
+        background-size: cover; /* Altera o tamanho do background */
+        background-repeat: repeat;  /* Repeti a imagem no fundo */
+        color: rgb(0, 0, 0);
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;  /* direção do flex */
+        justify-content: center;
+        align-items: center; /* ??; */
+        font-size: 2.5em; /* Tamanho da fonte */
+        font-family: monospace;
+        
+    }
+    section p{
+        background-color: #ffffff;
+        border: #000, 2px, solid;
+        font-weight: 800;
+
+    }
+
+    section h1{
+        font-family: 'Times New Roman', Times, serif;
+        color: #ffffff;
+    }
+    
+
+
+.content{
+    display: flex; /* ?? */
+    flex-direction: row; /* ?? */
+    align-items: center; /* ?? */
+    justify-content: center; /* ?? */
+    
+}
+
+.content img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;  /* server para n perder a proporção da imagem idenpendete da altura e largura */
+    margin-right: 20px;  /* Margem para a direita */
+    border-radius: 8px;  /* Cria borda */
+}
+
+.content .text{
+    max-width: 600px; /* Maximo de largura */
+    text-align: left;
+}
+
+.content .text h2{
+    font-size:  2em;
+    margin-bottom: 20px; /* Direção do botão */
+    color: #333;
+}
+
+.content .text p{
+    font-size: 1.1em;
+    color: #555;
+}
+
+#nintendods{
+    background-color: #e70c0c;
+    
+    
+    
+}
+#nintendods h2{
+    line-height: 2px;
+    text-align: center;
+    color: #ffe4c4;
+}
+
+#ps2{
+    background-color: #0834c4;
+    
+
+
+}
+#ps2 h2{
+   letter-spacing: 3px; 
+   line-height: 2px;
+   text-align: center;
+   color: #ffe4c4;
+}
+
+#nintendoswitch{
+    background-color: #c7eb00;
+}
+
+#nintendoswitch h2{
+    line-height: 2px;
+    text-align: center;
+    color: #ffe4c4;
+}
+
+.cta-button{
+    margin-top: 30px;  /* ?? */
+    background-color: rgb(162, 207, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px 28px;
+    font-size: 15px;
+    border: none; /* borda */
+    border-radius: 12px;
+    cursor: grabbing; /* modifica  o curso quando parar sobre */
+    box-shadow:  0px 4px 6px rgba(0, 0, 0, 01);
+    font-family: monospace;
+}
+
+.cta-button:hover{
+    box-shadow: 0px 1px 3px #be000033;
+    background-color: #2b28e7;
+}
